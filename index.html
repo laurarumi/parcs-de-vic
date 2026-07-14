@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcs</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <img src="img/flower1.svg" id="flower1" class="flower" draggable="false">
+    <img src="img/flower2.svg" id="flower2" class="flower"draggable="false">
+    <img src="img/flower1.svg" id="flower3" class="flower" draggable="false">
+    <img src="img/flower2.svg" id="flower4" class="flower" draggable="false">
+
+    <header class="top-header">
+
+        <nav class="left-nav">
+            <a href="#parcs">PARCS</a>
+            <a href="#projecte">SOBRE EL PROJECTE</a>
+        </nav>
+
+        <h1>ELS PARCS DE VIC</h1>
+
+        <nav class="right-nav">
+            <a href="#comparteix">COMPARTEIX UN PARC</a>
+            <a href="#suport">DONA SUPORT</a>
+        </nav>
+
+        
+    </header>
+    
+
+
+    <main>
+
+        <section class="intro">
+            <h2>Hola!<br>Aquí tens un recull dels parcs de Vic i com són realment.<br> Hi ha dies que necessites un parc amb ombra o amb espai per córrer. <br> Aquesta pàgina t'ajuda a decidir quin triar avui.</h2>
+        </section>
+
+
+        <section class="filtres">
+            <button class="filter-btn" data-filter="tots">TOTS</button>
+            <button class="filter-btn" data-filter="ombra-am">OMBRA AL MATÍ</button>
+            <button class="filter-btn" data-filter="ombra-pm">OMBRA A LA TARDA</button>
+            <button class="filter-btn" data-filter="petits">PELS MÉS PETITS</button>
+            <button class="filter-btn" data-filter="vallats">VALLATS</button>
+            <button class="filter-btn" data-filter="amplis">AMPLIS</button>
+        </section>
+
+        <p id="park-count" class="park-count">
+            <span id="filter-name"></span>
+            <span id="count"></span>
+        </p>
+
+        <div class="cards-container">
+             
+        </div>
+
+        <section class="parcs" id="parcs">
+
+            <article class="parc-card" data-id="horta-vermella">
+                <img src="img/parc1.jpg" alt="Parc de l'Horta Vermella">
+                <h3>Parc de l'Horta Vermella</h3>
+            </article>
+
+            <article class="parc-card" data-id="sant-jaume">
+                <img src="img/parc2.jpg" alt="Parc de Sant Jaume (Santa Anna)">
+                <h3>Parc de Sant Jaume (Santa Anna)</h3>
+            </article>
+
+            <article class="parc-card" data-id="rambla-del-mèder">
+                <img src="img/parc3.jpg" alt="Parc de la Rambla del Mèder">
+                <h3>Parc de la Rambla del Mèder</h3>
+            </article>
+
+            <article class="parc-card" data-id="sínia">
+                <img src="img/parc4.jpg" alt="Parc de la Sínia">
+                <h3>Parc de la Sínia</h3>
+            </article>
+
+            <article class="parc-card" data-id="divina-pastora">
+                <img src="img/parc5.jpg" alt="Parc de la Divina Pastora">
+                <h3>Parc de la Divina Pastora</h3>
+            </article>
+
+            <article class="parc-card" data-id="somoto">
+                <img src="img/parc6.jpg" alt="Parc de Somoto">
+                <h3>Parc de Somoto</h3>
+            </article>
+
+            <article class="parc-card" data-id="atlàntida">
+                <img src="img/parc7.jpg" alt="Parc Musical de l'Atlàntida">
+                <h3>Parc Musical de l'Atlàntida</h3>
+            </article>
+
+             <article class="parc-card" data-id="pep-ventura">
+                <img src="img/parc8.jpg" alt="Parc del passeig Pep Ventura">
+                <h3>Parc del Passeig Pep Ventura</h3>
+            </article>
+
+
+
+        </section>
+
+        </main>
+
+        <div class="end">
+
+        <section id="projecte">
+
+            <h4>SOBRE EL PROJECTE</h4>
+            <p>
+            La idea d'aquest projecte va sorgir després d'anar a parcs amb el meu fill i adonar-me que alguns no eren del tot adequats per a ell. Costa molt saber com és realment un parc abans d'anar-hi. <br>
+
+            Parlant amb altres famílies, vaig veure que moltes compartíem les mateixes preguntes abans de sortir de casa: hi ha ombra? Està net? És segur? És adequat per als més petits? <br>
+
+            He creat aquesta pàgina com un espai per compartir aquesta informació amb tothom qui la pugui necessitar i, alhora, practicar desenvolupament web i disseny UX. <br>
+
+            Tota la informació es basa en visites als parcs de la ciutat i en experiències compartides per famílies. Les valoracions són subjectives i reflecteixen l'estat del parc en el moment de la visita. Amb el temps, els espais poden canviar.
+            </p>
+
+        </section>
+
+        <section id="final-cards">
+
+            <article id="comparteix">
+            <h4>COMPARTEIX UN PARC</h4>
+            <p>Completa aquest formulari i ajuda'm a descobrir més parcs!</p>
+            <a href="https://forms.gle/8MAsnMQvgqNyhNx69" target="_blank"class="button">
+            Comparteix un parc
+            </a>
+            </article>
+
+            <article id="suport">
+            <h4>DONA SUPORT</h4>
+            <p>Si t'agradaria ajudar a mantenir aquesta pàgina, pots convidar-me a un te.</p>
+            <a href="https://www.buymeacoffee.com/lauraarumi" class="button">
+            Convida'm a un te
+            </a>
+            </article>
+        </section>
+
+        </div>
+
+    
+
+    <div class="modal hidden">
+
+    <div class="modal-content">
+
+        <button class="close-btn">✕</button>
+
+        
+
+            <div class="gallery">
+
+                <button id="prev-btn">‹</button>
+
+                <img id="modal-image" src="" alt="">
+
+                <button id="next-btn">›</button>
+
+            </div>
+
+          
+
+            <div class="modal-info">
+
+                <h2 id="modal-title"></h2>
+
+                <a id="location"></a> 
+
+                <p id="modal-ages"></p>
+
+                <ul id="modal-equipment"></ul>
+
+            </div>
+
+       
+
+        <div class="ratings">
+
+            <div class="rating">
+                <span>Ombra matí</span>
+                <div id="modal-shade-am" class="dots"></div>
+            </div>
+
+            <div class="rating">
+                 <span>Ombra tarda</span>
+                <div id="modal-shade-pm" class="dots"></div>
+            </div>
+
+            <div class="rating">
+                <span>Estat de l'equipament</span>
+                <div id="modal-condition" class="dots"></div>
+            </div>
+
+            <div class="rating">
+                <span>Nivell de neteja</span>
+                <div id="modal-cleanliness" class="dots"></div>
+            </div>
+
+        </div>
+
+    
+
+        <div class="extra-info">
+        <div class="note-box">
+
+            <h3>A tenir en compte</h3>
+
+            <p id="modal-note"></p>
+
+        </div>
+
+        <div class="favorite-box">
+
+            <h3>Ens agrada perquè</h3>
+
+            <p id="modal-favorite"></p>
+
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+     <script src="js/script.js"></script>
+
+<footer>Projecte personal dissenyat i programat per Laura Arumí Arderiu.
+Fotografies i contingut propis.
+© 2026 Laura Arumí Arderiu.</footer>
+</body>
+</html>
