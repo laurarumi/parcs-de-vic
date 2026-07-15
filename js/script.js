@@ -605,6 +605,7 @@ flowers.forEach(flower => {
     flower.addEventListener("dragstart", e => e.preventDefault());
 
     flower.addEventListener("pointerdown", (e) => {
+        console.log("Flower clicked");
 
         e.preventDefault();
 
