@@ -29,7 +29,7 @@ const filterLabels = {
   "ombra-am": "Parcs amb ombra al matí",
   "ombra-pm": "Parcs amb ombra a la tarda",
   petits: "Parcs pels més petits",
-  vallats: "Parcs vallats",
+  vallats: "Parcs amb tanca",
   amplis: "Parcs amplis"
 };
 
