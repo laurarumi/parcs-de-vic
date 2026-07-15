@@ -107,11 +107,16 @@ cards.forEach(card => {
         favorite.textContent = park.favorite;
 
         modal.classList.remove("hidden");
+        history.pushState({ modalOpen: true }, "");
         });
 
 });
 
-
+window.addEventListener("popstate", () => {
+    if (!modal.classList.contains("hidden")) {
+        modal.classList.add("hidden");
+    }
+});
 
 // close modal
 closeBtn.addEventListener("click", () => {
