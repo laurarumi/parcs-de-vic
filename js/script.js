@@ -218,7 +218,7 @@ const parks = {
 
     note: "Hi ha molt poca ombra, millor evitar les hores de sol intens.",
 
-    favorite: "Està situat a una zona molt tranquila i agradable amb poc trànsit de cotxes."
+    favorite: "Està situat en una zona molt tranquil·la i agradable amb poc trànsit de cotxes."
 },
 
 "rambla-del-mèder": {
@@ -286,7 +286,7 @@ const parks = {
 
     cleanliness: 2,
 
-    note: "No hi ha valla i està aprop d'un carrer amb molt trànsit de cotxes.",
+    note: "No hi ha tanca i està a prop d'un carrer amb molt trànsit de cotxes.",
 
     favorite: "Hi ha dos espais diferenciats, un per a petits i un per a grans, amb diferents tipus de joc."
 },
@@ -322,7 +322,7 @@ const parks = {
 
     cleanliness: 4,
 
-    note: "La zona de la sorrera està bastant deixada. És una zona amb molt transit de cotxes.",
+    note: "La zona de la sorrera està bastant deixada. És una zona amb molt trànsit de cotxes.",
 
     favorite: "Al matí hi ha molta ombra i és molt agradable, sobretot a l'estiu."
 },
@@ -431,7 +431,7 @@ const parks = {
     condition: 4,
     cleanliness: 3,
 
-    note: "El parc és just al costat del riu, en alguns trams hi ha valla però no a tots. Cal anar amb compte amb els més petits.",
+    note: "El parc és just al costat del riu, en alguns trams hi ha tanca però no a tots. Cal anar amb compte amb els més petits.",
     favorite: "El parc és enorme i permet diferents tipus de joc. Tothom trobarà alguna cosa que li agradi."
 
     }
