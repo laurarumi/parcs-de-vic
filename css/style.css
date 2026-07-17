@@ -82,13 +82,11 @@ header h1 {
     position: absolute;
     touch-action: none;
     user-select: none;
-    cursor: grab;
-    -webkit-user-drag: none;
-   
+    cursor: grab !important;
 }
 
 .flower:active {
-    cursor: grabbing;
+    cursor: grabbing !important;
 }
 
 #flower1 {
@@ -102,12 +100,15 @@ header h1 {
 }
 
 #flower3 {
-    top: 1900px;
-    left: 95%;
+    position: absolute;
+    top: 300px;
+    left: 90%;
 }
 
+
 #flower4 {
-    top: 2000px;
+    position: absolute;
+    top: 500px;
     left: 2%;
 }
 
@@ -465,6 +466,7 @@ h4 {
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     line-height: 1.8;
+    position: relative;
 }
 
 #projecte {
@@ -862,15 +864,5 @@ footer {
     #final-cards {
         flex-direction: column;
         gap: 20px;
-    }
-
-    #flower3 {
-        top: 4600px;
-        left: 85%;
-    }
-
-    #flower4 {
-        top: 5000px;
-        left: 5%;
     }
 }

@@ -596,39 +596,25 @@ document.querySelectorAll("[data-filter]").forEach(btn => {
   });
 });
 
-const flowers = document.querySelectorAll(".flower");
+    interact('.flower').draggable({
+  listeners: {
+    move(event) {
+      const target = event.target;
 
-flowers.forEach(flower => {
+      // Current translation
+      const x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+      const y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
 
-    flower.draggable = false;
+      // Move using CSS transform instead of top/left
+      target.style.transform = `translate(${x}px, ${y}px)`;
 
-    flower.addEventListener("dragstart", e => e.preventDefault());
-
-    flower.addEventListener("pointerdown", (e) => {
-        console.log("Flower clicked");
-
-        e.preventDefault();
-
-        flower.setPointerCapture(e.pointerId);
-
-        const startX = e.clientX - flower.offsetLeft;
-        const startY = e.clientY - flower.offsetTop;
-
-        function move(e) {
-            flower.style.left = `${e.clientX - startX}px`;
-            flower.style.top = `${e.clientY - startY}px`;
-        }
-
-        function up(e) {
-            flower.releasePointerCapture(e.pointerId);
-            flower.removeEventListener("pointermove", move);
-            flower.removeEventListener("pointerup", up);
-        }
-
-        flower.addEventListener("pointermove", move);
-        flower.addEventListener("pointerup", up);
-
-    });
-
+      // Save the new position
+      target.setAttribute('data-x', x);
+      target.setAttribute('data-y', y);
+    }
+  },
+  inertia: true
 });
+
+// });
 
