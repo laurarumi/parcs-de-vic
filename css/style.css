@@ -710,12 +710,12 @@ footer {
 }
 
 #flower3 {
-    top: 2600px;
+    top: 300px;
     left: 90%;
 }
 
 #flower4 {
-    top: 3000px;
+    top: 450px;
     left: 2%;
 }
 
@@ -764,15 +764,6 @@ footer {
         left: 75%;
     }
 
-    #flower3 {
-        top: 4600px;
-        left: 90%;
-    }
-
-    #flower4 {
-        top: 5100px;
-        left: 5%;
-    }
 }
 
 
@@ -803,12 +794,12 @@ footer {
     }
 
     #flower3 {
-        top: 4500px;
+        top: 300px;
         left: 85%;
     }
 
     #flower4 {
-        top: 5000px;
+        top: 400px;
         left: 5%;
     }
 
