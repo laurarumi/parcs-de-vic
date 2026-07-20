@@ -157,8 +157,8 @@ const parks = {
         "img/parc1-3.jpg"],
 
     ageMin:2,
-    ageMax:12,
-    ageLabel: "2 a 12 anys",
+    ageMax:10,
+    ageLabel: "2 a 10 anys",
 
     equipment: [
         "Gronxador",
@@ -230,7 +230,10 @@ const parks = {
 
     location: "https://maps.app.goo.gl/H9253fuhS2zjnB3H9",
 
-    images: ["img/parc3.jpg"],
+    images: ["img/parc3.jpg",
+        "img/parc3-1.jpg",
+        "img/parc3-2.jpg",
+        "img/parc3-3.jpg"],
 
     ageMin: 0,
     ageMax: 3,
@@ -249,7 +252,7 @@ const parks = {
 
     cleanliness: 4,
 
-    note: "Hi ha molt poca ombra.",
+    note: "Hi ha molt poca ombra. Les oportunitats de joc són limitades.",
 
     favorite: "És un parc de pas, ideal per aturar-se un moment amb els més petits i que puguin jugar una estona."
 },
@@ -318,9 +321,9 @@ const parks = {
     
     shadeAM: 5,
     shadePM: 2,
-    condition: 4,
+    condition: 3,
 
-    cleanliness: 4,
+    cleanliness: 3,
 
     note: "La zona de la sorrera està bastant deixada. És una zona amb molt trànsit de cotxes.",
 
@@ -338,12 +341,13 @@ const parks = {
 
     images: ["img/parc6.jpg",
              "img/parc6-1.jpg",
-             "img/parc6-2.jpg"
+             "img/parc6-2.jpg",
+            "img/parc6-3.jpg",
     ], 
 
     ageMin: 4,
-    ageMax: 12,
-    ageLabel: "4 a 12 anys",
+    ageMax: 10,
+    ageLabel: "4 a 10 anys",
 
     equipment: [
         "Gronxadors",
@@ -353,9 +357,9 @@ const parks = {
         "Sortidor d'aigua",
     ],
 
-    shadeAM: 1,
+    shadeAM: 0,
     shadePM: 2,
-    condition: 4,
+    condition: 5,
     cleanliness: 2,
 
     note: "No hi ha gairebé ombra a la zona de jocs, millor evitar les hores de sol intens.",
@@ -385,8 +389,8 @@ const parks = {
     ],
 
     shadeAM: 0,
-    shadePM: 1,
-    condition: 2,
+    shadePM: 0,
+    condition: 1,
     cleanliness: 5,
 
     note: "És una pena, els instruments han estat mal tractats i la majoria no es poden tocar bé.",
@@ -429,11 +433,123 @@ const parks = {
     shadeAM: 4,
     shadePM: 2,
     condition: 4,
-    cleanliness: 3,
+    cleanliness: 1,
 
     note: "El parc és just al costat del riu, en alguns trams hi ha tanca però no a tots. Cal anar amb compte amb els més petits.",
     favorite: "El parc és enorme i permet diferents tipus de joc. Tothom trobarà alguna cosa que li agradi."
 
+    },
+
+    "bassa-dels-hermanos": {
+    title: "Parc de la Bassa dels Hermanos",    
+
+    petits: true,
+    vallats: true,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/r7Z1w1BcfrR881GJA",
+
+    images: ["img/parc9.jpg",
+             "img/parc9-1.jpg",
+             "img/parc9-2.jpg",
+             "img/parc9-3.jpg",
+             "img/parc9-4.jpg",
+             "img/parc9-5.jpg",
+             "img/parc9-6.jpg"
+    ],
+
+    ageMin: 3,
+    ageMax: 10,
+    ageLabel: "3 a 10 anys",
+    equipment: [
+        "Gronxador",
+        "Gronxador per a petits",
+        "Tobogan",
+        "Estructura multijoc",
+        "Balencí",
+        "Estructures de cordes",
+        "Estructures d'equilibri",
+        "Sorrera",
+    ],
+
+    shadeAM: 3,
+    shadePM: 4,
+    condition: 5,
+    cleanliness: 2,
+
+    note: "Si ha plogut recentment, la zona de la gespa queda molt enfangada i amb forats.",
+    favorite: "És un parc segur i tancat."
+    },
+
+    "rambla-del-mèder-grans": {
+    title: "Parc de la Rambla del Mèder (grans)",
+
+    petits: false,
+    vallats: false,
+    amplis: false,
+
+    location: "https://maps.app.goo.gl/qzuG8EpjAYhejQYa9",
+    images: ["img/parc10.jpg",
+             "img/parc10-1.jpg",
+            "img/parc10-2.jpg",
+    ],
+
+    ageMin: 5,
+    ageMax: 8,
+    ageLabel: "5 a 8 anys",
+    equipment: [
+        "Gronxadors",
+        "Tobogan",
+        "Estructura multijoc",
+    ],
+
+    shadeAM: 0,
+    shadePM: 1,
+    condition: 4,
+    cleanliness: 4,
+
+    note: "Està just al costat del carrer i no hi ha tanca, normalment només hi passen veïns, però cal anar amb compte.",
+    favorite: "És un parc de pas, està bé per aturar-se un moment i jugar una estona."
+    },
+
+    "santa-anna": {
+    title: "Parc de Santa Anna",    
+
+    petits: false,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/HHcDHVeSoNYgpeNi7",
+    images: ["img/parc11.jpg",
+             "img/parc11-1.jpg",
+             "img/parc11-2.jpg",
+             "img/parc11-3.jpg",
+             "img/parc11-4.jpg",
+             "img/parc11-5.jpg",
+             "img/parc11-6.jpg"
+    ],
+
+    ageMin: 6,
+    ageMax: 12,
+    ageLabel: "6 a 12 anys",
+
+    equipment: [
+        "Gronxadors",
+        "Tobogans",
+        "Estructura multijoc",
+        "Estructures d'escalada",
+        "Sorrera",
+        "Balencins",
+        "Caseta de fusta",
+    ],
+
+    shadeAM: 2,
+    shadePM: 1,
+    condition: 2,
+    cleanliness: 4,
+
+    note: "L'estructura multijoc no està en perfecte estat, hi ha alguns plafons de fusta trencats o fora de lloc.",
+    favorite: "És un parc molt gran, ideal per a infants més grans que els agradin els reptes."
     }
 
 };
