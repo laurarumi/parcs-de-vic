@@ -168,7 +168,7 @@ const parks = {
         "Sorrera",
         "Caseta de fusta",
         "Estructura de cordes",
-        "Balencins"
+        "Balancins"
     ],
 
     shadeAM: 4,
@@ -205,7 +205,7 @@ const parks = {
         "Tobogans",
         "Sorrera",
         "Caseta de fusta",
-        "Balencí",
+        "Balancí",
         "Estructura multijoc (vaixell pirata)",
     ],
 
@@ -242,7 +242,7 @@ const parks = {
     equipment: [
         "Gronxador per a petits",
         "Tobogan petit",
-        "Balencí"
+        "Balancí"
     ],
 
     shadeAM: 1,
@@ -280,7 +280,7 @@ const parks = {
         "Estructura multijoc",
         "Caseta",
         "Estructura de cordes",
-        "Balencí"
+        "Balancí"
     ],
     
     shadeAM: 2,
@@ -315,7 +315,7 @@ const parks = {
         "Estructura multijoc",
         "Tobogan",
         "Estructura de cordes",
-        "Balencí",
+        "Balancí",
         "Sorrera"
     ],
     
@@ -426,7 +426,7 @@ const parks = {
         "Gronxadors per a petits",
         "Tobogan",
         "Estructura multijoc",
-        "Balencins",
+        "Balancins",
         "Estructures de cordes",
     ],
 
@@ -466,7 +466,7 @@ const parks = {
         "Gronxador per a petits",
         "Tobogan",
         "Estructura multijoc",
-        "Balencí",
+        "Balancí",
         "Estructures de cordes",
         "Estructures d'equilibri",
         "Sorrera",
@@ -539,7 +539,7 @@ const parks = {
         "Estructura multijoc",
         "Estructures d'escalada",
         "Sorrera",
-        "Balencins",
+        "Balancins",
         "Caseta de fusta",
     ],
 
@@ -550,6 +550,146 @@ const parks = {
 
     note: "L'estructura multijoc no està en perfecte estat, hi ha alguns plafons de fusta trencats o fora de lloc.",
     favorite: "És un parc molt gran, ideal per a infants més grans que els agradin els reptes."
+    },
+
+    "miquel-albó": {
+    title: "Parc de Miquel Albó",
+    petits: true,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/YJrRDBQ9B7uwPByB7",
+    images: ["img/parc12.jpg",
+             "img/parc12-1.jpg",
+             "img/parc12-2.jpg",
+             "img/parc12-3.jpg",
+    ],
+
+    ageMin: 2,
+    ageMax: 8,
+    ageLabel: "2 a 8 anys",
+
+    equipment: [
+        "Caseta de fusta",
+        "Tobogan",
+        "Tractor de fusta",
+        "Estructura multijoc",
+        "Balancins",
+    ],
+
+    shadeAM: 0,
+    shadePM: 0,
+    condition: 5,
+    cleanliness: 5,
+
+    note: "No hi ha tanca i està al costat d'un carrer, s'ha de vigilar amb els més petits.",
+    favorite: "Té elements de la granja com el tractor i els cavalls de balancí."
+    },
+
+    "miquel-albó-grans": {
+    title: "Parc de Miquel Albó (grans)",
+    petits: false,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/3hcJFUxZm5xAQxnH7",
+    images: ["img/parc13.jpg",
+             "img/parc13-1.jpg",
+             "img/parc13-2.jpg",
+             "img/parc13-3.jpg",
+             "img/parc13-4.jpg",
+             "img/parc13-5.jpg",
+             "img/parc13-6.jpg",
+             "img/parc13-7.jpg",
+    ],
+
+    ageMin: 8,
+    ageMax: 99,
+    ageLabel: "8 anys +",
+
+    equipment: [
+        "Gronxador",
+        "Gronxador per a petits",
+        "Tobogans",
+        "Estructura multijoc",
+        "Estructures d'escalada",
+        "Caseta de fusta",
+        "ponts d'equilibri",
+        "barres",
+    ],
+
+    shadeAM: 0,
+    shadePM: 0,
+    condition: 3,
+    cleanliness: 4,
+
+    note: "Només hi ha tanca a la part que toca al carrer, no està completament tancat.",
+    favorite: "És un parc amb molts reptes i elements de joc pels infants més grans."
+    },
+
+    "nadal": {
+    title: "Parc del Nadal",
+    petits: true,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/ZsXfop7fxVA7xyr56",
+
+    images: ["img/parc14.jpg",
+             "img/parc14-1.jpg",
+             "img/parc14-2.jpg",
+             "img/parc14-3.jpg",
+             "img/parc14-4.jpg",
+    ],
+
+    ageMin: 2,
+    ageMax: 6,
+    ageLabel: "2 a 6 anys",
+    equipment: [
+        "Gronxadors",
+        "Gronxador per a petits",
+        "Tobogan",
+        "Caseta",
+        "Balancins",
+        "Sorrera",
+    ],
+
+    shadeAM: 1,
+    shadePM: 0,
+    condition: 5,
+    cleanliness: 3,
+
+    note: "hi ha elements per a nens molt petits i altres per a nens bastant més grans, no hi ha gaire coherència entre els elements de joc.",
+    favorite: "Permet una mica de joc en una zona de Vic on no hi ha massa oferta per a infants.",
+    },
+
+    "salarich": {
+    title: "Parc del Salarich",
+    petits: false,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/CUwbaXPUnwjPGhzL9",
+    images: ["img/parc15.jpg",
+             "img/parc15-1.jpg",
+            ], 
+
+    ageMin: 4,
+    ageMax: 10,
+    ageLabel: "4 a 10 anys",
+
+    equipment: [
+        "Tobogan",
+        "Estructura multijoc",
+    ],
+
+    shadeAM: 0,
+    shadePM: 0,
+    condition: 3,
+    cleanliness: 4,
+
+    note: "Per arribar al parc des del carrer hi ha unes escales bastant altes.",
+    favorite: "No sé si ens agrada gaire, és una estructura multijoc i un tobogan, res més."
     }
 
 };
