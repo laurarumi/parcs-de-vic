@@ -50,7 +50,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+    <img src="img/flower1.svg" id="flower1" class="flower" draggable="false">
+    <img src="img/flower2.svg" id="flower2" class="flower" draggable="false">
 
     <header class="top-header">
 
@@ -76,7 +77,6 @@
         <section class="intro">
             <h2>Hola!<br>Aquí tens un recull dels parcs de Vic i com són realment.<br> Hi ha dies que necessites un parc amb ombra o amb espai per córrer. <br> Aquesta pàgina t'ajuda a decidir quin triar avui.</h2>
         </section>
-
 
         <section class="filtres">
             <button class="filter-btn" data-filter="tots">TOTS</button>
@@ -230,6 +230,15 @@
                 <h3>Parc del Salarich</h3>
             </article>
 
+            <article class="parc-card" data-id="can-forcada">
+                <img src="img/parc16.webp" alt="Parc de Can Forcada"
+                loading="lazy"
+                decoding="async"
+                width="1500"
+                height="2000">
+                <h3>Parc de Can Forcada</h3>
+            </article>
+
 
 
         </section>
@@ -363,7 +372,12 @@
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
      <script src="js/script.js"></script>
 
-<footer>Projecte personal sobre els parcs infantils de Vic.
+<footer>
+    <p class="last-updated">
+     Darrera actualització: 30 de juliol de 2026
+    </p>
+    
+Projecte personal sobre els parcs infantils de Vic.
 Disseny, desenvolupament i contingut: Laura Arumí Arderiu.
 © 2026 Laura Arumí Arderiu.</footer>
 </body>

@@ -690,6 +690,48 @@ const parks = {
 
     note: "Per arribar al parc des del carrer hi ha unes escales bastant altes.",
     favorite: "No sé si ens agrada gaire, és una estructura multijoc i un tobogan, res més."
+    },
+
+    "can-forcada": {
+    title: "Parc de Can Forcada",
+    petits: true,
+    vallats: false,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/pXCRGZ9pbiaVtXw79",
+    images: ["img/parc16.webp",
+             "img/parc16-1.webp",
+             "img/parc16-2.webp",
+             "img/parc16-3.webp",
+             "img/parc16-4.webp",
+             "img/parc16-5.webp",
+             "img/parc16-6.webp",
+             "img/parc16-7.webp",
+    ],
+
+    ageMin: 2,
+    ageMax: 10,
+    ageLabel: "2 a 10 anys",
+
+    equipment: [
+        "Gronxadors",
+        "Gronxador per a petits",
+        "Tobogan",
+        "Estructura multijoc",
+        "Estructures d'escalada",
+        "Estructures d'equilibri",
+        "Jocs amb sorra",
+        "llits elàstics",
+        "plataforma giratòria"
+    ],
+
+    shadeAM: 4,
+    shadePM: 4,
+    condition: 5,
+    cleanliness: 5,
+
+    note: "No hi ha tanca a la part que toca al carrer.",
+    favorite: "Pensem que és el millor parc de Vic, hi ha molta varietat d'elements de joc i també molta ombra. És un parc molt agradable.",
     }
 
 };
