@@ -151,7 +151,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/17wU1b2Y91HoDkSk9",
 
-    images: ["img/parc1.jpg",
+    images: ["img/parc1.webp",
         "img/parc1-1.jpg",   
         "img/parc1-2.jpg",
         "img/parc1-3.jpg"],
@@ -192,7 +192,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/We4ScPPrZcHfsQ2N6",
 
-    images: ["img/parc2.jpg",
+    images: ["img/parc2.webp",
         "img/parc2-1.jpg"],
 
     ageMin: 2,
@@ -230,7 +230,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/H9253fuhS2zjnB3H9",
 
-    images: ["img/parc3.jpg",
+    images: ["img/parc3.webp",
         "img/parc3-1.jpg",
         "img/parc3-2.jpg",
         "img/parc3-3.jpg"],
@@ -266,7 +266,7 @@ const parks = {
     
     location:"https://maps.app.goo.gl/ndp8RWxVQP1GArCH8",
 
-    images: ["img/parc4.jpg",
+    images: ["img/parc4.webp",
         "img/parc4-1.jpg"],
 
     ageMin: 0,
@@ -303,7 +303,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/XicUXq33qdiQfVyx6",
 
-    images: ["img/parc5.jpg",
+    images: ["img/parc5.webp",
              "img/parc5-1.jpg"
     ],
 
@@ -339,7 +339,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/ff79wAnu3yDMKFATA",
 
-    images: ["img/parc6.jpg",
+    images: ["img/parc6.webp",
              "img/parc6-1.jpg",
              "img/parc6-2.jpg",
             "img/parc6-3.jpg",
@@ -376,7 +376,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/XJ2s8HmWdFWXmvzT7",
 
-    images: ["img/parc7.jpg",
+    images: ["img/parc7.webp",
              "img/parc7-1.jpg",
     ],
 
@@ -407,7 +407,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/SZusFqx3xKF1RnM76",
 
-    images: ["img/parc8.jpg",
+    images: ["img/parc8.webp",
              "img/parc8-1.jpg",
              "img/parc8-2.jpg",
              "img/parc8-3.jpg",
@@ -449,7 +449,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/r7Z1w1BcfrR881GJA",
 
-    images: ["img/parc9.jpg",
+    images: ["img/parc9.webp",
              "img/parc9-1.jpg",
              "img/parc9-2.jpg",
              "img/parc9-3.jpg",
@@ -489,7 +489,7 @@ const parks = {
     amplis: false,
 
     location: "https://maps.app.goo.gl/qzuG8EpjAYhejQYa9",
-    images: ["img/parc10.jpg",
+    images: ["img/parc10.webp",
              "img/parc10-1.jpg",
             "img/parc10-2.jpg",
     ],
@@ -520,7 +520,7 @@ const parks = {
     amplis: true,
 
     location: "https://maps.app.goo.gl/HHcDHVeSoNYgpeNi7",
-    images: ["img/parc11.jpg",
+    images: ["img/parc11.webp",
              "img/parc11-1.jpg",
              "img/parc11-2.jpg",
              "img/parc11-3.jpg",
@@ -559,7 +559,7 @@ const parks = {
     amplis: true,
 
     location: "https://maps.app.goo.gl/YJrRDBQ9B7uwPByB7",
-    images: ["img/parc12.jpg",
+    images: ["img/parc12.webp",
              "img/parc12-1.jpg",
              "img/parc12-2.jpg",
              "img/parc12-3.jpg",
@@ -593,7 +593,7 @@ const parks = {
     amplis: true,
 
     location: "https://maps.app.goo.gl/3hcJFUxZm5xAQxnH7",
-    images: ["img/parc13.jpg",
+    images: ["img/parc13.webp",
              "img/parc13-1.jpg",
              "img/parc13-2.jpg",
              "img/parc13-3.jpg",
@@ -635,7 +635,7 @@ const parks = {
 
     location: "https://maps.app.goo.gl/ZsXfop7fxVA7xyr56",
 
-    images: ["img/parc14.jpg",
+    images: ["img/parc14.webp",
              "img/parc14-1.jpg",
              "img/parc14-2.jpg",
              "img/parc14-3.jpg",
@@ -670,7 +670,7 @@ const parks = {
     amplis: true,
 
     location: "https://maps.app.goo.gl/CUwbaXPUnwjPGhzL9",
-    images: ["img/parc15.jpg",
+    images: ["img/parc15.webp",
              "img/parc15-1.jpg",
             ], 
 
