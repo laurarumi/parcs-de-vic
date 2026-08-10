@@ -728,9 +728,9 @@ const parks = {
     shadeAM: 4,
     shadePM: 4,
     condition: 5,
-    cleanliness: 5,
+    cleanliness: 3,
 
-    note: "No hi ha tanca a la part que toca al carrer.",
+    note: "No hi ha tanca a la part que toca al carrer. La part per escalar i arribar fins al tobogan està trencada, cal vigilar.",
     favorite: "Pensem que és el millor parc de Vic, hi ha molta varietat d'elements de joc i també molta ombra. És un parc molt agradable.",
     }
 
