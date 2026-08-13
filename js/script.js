@@ -730,7 +730,7 @@ const parks = {
     condition: 5,
     cleanliness: 3,
 
-    note: "No hi ha tanca a la part que toca al carrer. La part per escalar i arribar fins al tobogan està trencada, cal vigilar.",
+    note: "No hi ha tanca a la part que toca al carrer.",
     favorite: "Pensem que és el millor parc de Vic, hi ha molta varietat d'elements de joc i també molta ombra. És un parc molt agradable.",
     }
 
