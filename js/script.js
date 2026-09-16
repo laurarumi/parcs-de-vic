@@ -144,6 +144,7 @@ document.addEventListener("keydown",(event) => {
 const parks = {
  "horta-vermella": {
     title: "Parc de l'Horta Vermella",
+    dateAdded: "2026-06-01",
 
     petits: true,
     vallats: true,
@@ -174,9 +175,9 @@ const parks = {
     shadeAM: 4,
     shadePM: 4,
 
-    condition: 4,
+    condition: 5,
 
-    cleanliness: 4,
+    cleanliness: 3,
 
     note: "A l'estiu hi ha abelles a la zona de la sorrera",
 
@@ -185,6 +186,7 @@ const parks = {
 
 "sant-jaume": {
     title: "Parc de Sant Jaume (Santa Anna)",
+    dateAdded: "2026-06-01",
 
     petits: true,
     vallats: true,
@@ -223,6 +225,7 @@ const parks = {
 
 "rambla-del-mèder": {
     title: "Parc de la Rambla del Mèder",
+    dateAdded: "2026-06-01",
 
     petits: true,
     vallats: false,
@@ -259,6 +262,7 @@ const parks = {
 
 "sínia": {
     title: "Parc de la Sínia", 
+    dateAdded: "2026-06-01",
 
     petits: true,
     vallats: false,
@@ -296,6 +300,7 @@ const parks = {
 
 "divina-pastora": {
     title: "Parc de la Divina Pastora",  
+    dateAdded: "2026-06-02",
 
     petits: false,
     vallats: true,
@@ -332,6 +337,7 @@ const parks = {
 
 "somoto": {
     title: "Parc del Somoto",
+    dateAdded: "2026-06-02",
 
     petits: false,
     vallats: false,
@@ -369,6 +375,7 @@ const parks = {
 
     "atlàntida": {
     title: "Parc Musical de l'Atlàntida",
+    dateAdded: "2026-06-02",
 
     petits: true,
     vallats: false,
@@ -400,6 +407,7 @@ const parks = {
 
     "pep-ventura": {
     title: "Parc del Passeig Pep Ventura",
+    dateAdded: "2026-06-03",
 
     petits: true,
     vallats: false,
@@ -442,6 +450,7 @@ const parks = {
 
     "bassa-dels-hermanos": {
     title: "Parc de la Bassa dels Hermanos",    
+    dateAdded: "2026-06-04",
 
     petits: true,
     vallats: true,
@@ -483,6 +492,7 @@ const parks = {
 
     "rambla-del-mèder-grans": {
     title: "Parc de la Rambla del Mèder (grans)",
+    dateAdded: "2026-06-05",
 
     petits: false,
     vallats: false,
@@ -514,6 +524,7 @@ const parks = {
 
     "santa-anna": {
     title: "Parc de Santa Anna",    
+    dateAdded: "2026-06-06",
 
     petits: false,
     vallats: false,
@@ -554,6 +565,7 @@ const parks = {
 
     "miquel-albó": {
     title: "Parc de Miquel Albó",
+    dateAdded: "2026-06-07",
     petits: true,
     vallats: false,
     amplis: true,
@@ -588,6 +600,7 @@ const parks = {
 
     "miquel-albó-grans": {
     title: "Parc de Miquel Albó (grans)",
+    dateAdded: "2026-06-07",
     petits: false,
     vallats: false,
     amplis: true,
@@ -629,6 +642,7 @@ const parks = {
 
     "nadal": {
     title: "Parc del Nadal",
+    dateAdded: "2026-06-08",
     petits: true,
     vallats: false,
     amplis: true,
@@ -665,6 +679,7 @@ const parks = {
 
     "salarich": {
     title: "Parc del Salarich",
+    dateAdded: "2026-06-08",
     petits: false,
     vallats: false,
     amplis: true,
@@ -694,6 +709,7 @@ const parks = {
 
     "can-forcada": {
     title: "Parc de Can Forcada",
+    dateAdded: "2026-09-16",
     petits: true,
     vallats: false,
     amplis: true,
@@ -710,13 +726,14 @@ const parks = {
     ],
 
     ageMin: 2,
-    ageMax: 10,
-    ageLabel: "2 a 10 anys",
+    ageMax: 12,
+    ageLabel: "2 a 12 anys",
 
     equipment: [
         "Gronxadors",
         "Gronxador per a petits",
-        "Tobogan",
+        "Tobogan gran",
+        "Tobogan petit",
         "Estructura multijoc",
         "Estructures d'escalada",
         "Estructures d'equilibri",
@@ -728,10 +745,49 @@ const parks = {
     shadeAM: 4,
     shadePM: 4,
     condition: 5,
-    cleanliness: 3,
+    cleanliness: 2,
 
     note: "No hi ha tanca a la part que toca al carrer.",
     favorite: "Pensem que és el millor parc de Vic, hi ha molta varietat d'elements de joc i també molta ombra. És un parc molt agradable.",
+    },
+
+    "segarra-oliva": {
+    title: "Parc de Ramon Segarra i Oliva",
+    dateAdded: "2026-09-16",
+    petits: true,
+    vallats: true,
+    amplis: true,
+
+    location: "https://maps.app.goo.gl/VMtxm6n7Ca4yGJNo7",
+    images: ["img/parc17.webp",
+             "img/parc17-1.webp",
+             "img/parc17-2.webp",
+             "img/parc17-3.webp",
+             "img/parc17-4.webp",
+             "img/parc17-5.webp",
+             "img/parc17-6.webp",
+            ], 
+
+    ageMin: 2,
+    ageMax: 8,
+    ageLabel: "2 a 8 anys",
+
+    equipment: [
+        "Tobogans",
+        "Estructures d'escalada",
+        "Gronxadors",
+        "Gronxador per a petits",
+        "Balancins",
+        "Sorrera",
+    ],
+
+    shadeAM: 5,
+    shadePM: 2,
+    condition: 4,
+    cleanliness: 5,
+
+    note: "Un dels gronxadors està trancat, aneu amb compte.",
+    favorite: "Està situat en una zona molt tranquil·la, té elements de joc per a petits i grans i és un dels parcs més nets que hem vist!"
     }
 
 };
@@ -810,29 +866,19 @@ function applyFilter() {
 
     });
 
+    // Sort by newest first
     visibleCards.sort((cardA, cardB) => {
 
-    const parkA = parks[cardA.dataset.id];
-    const parkB = parks[cardB.dataset.id];
+        const parkA = parks[cardA.dataset.id];
+        const parkB = parks[cardB.dataset.id];
 
-    if (parkA.ageMin !== parkB.ageMin) {
-        return parkA.ageMin - parkB.ageMin;
-    }
+        return new Date(parkB.dateAdded) - new Date(parkA.dateAdded);
 
-    return parkA.ageMax - parkB.ageMax;
+    });
 
-});
 
-    
-
-    // Sort only for the "petits" filter
+    // Sort by age only for the "petits" filter
     if (activeFilter === "petits") {
-
-        const container = document.getElementById("parcs");
-
-        const visibleCards = [...cards].filter(card =>
-            card.style.display !== "none"
-        );
 
         visibleCards.sort((a, b) => {
 
@@ -847,13 +893,16 @@ function applyFilter() {
 
         });
 
-
-        visibleCards.forEach(card => {
-        container.appendChild(card);
-        });
-
     }
 
+
+    // Put the cards back into the container in the new order
+    const container = document.getElementById("parcs");
+
+    visibleCards.forEach(card => {
+        container.appendChild(card);
+    });
+    
     updateParkCount(visibleCount);
 
 }
