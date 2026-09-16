@@ -963,7 +963,9 @@ document.querySelectorAll("[data-filter]").forEach(btn => {
   inertia: true
 });
 
-applyFilter();
+window.addEventListener("load", () => {
+    applyFilter();
+});
 
 // });
 
